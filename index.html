@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body class="Todo">
+    <div class="wrapper">
+      <h1>Todo</h1>
+      <div class="container">
+        <form class="add-todo-form">
+          <input
+            name="addTodoField"
+            type="text"
+            class="add-todo-input"
+            required
+            placeholder="Add your todo"
+          />
+        </form>
+        <div class="todo-list-container">
+          <ul class="todo-list"></ul>
+        </div>
+        <form class="search-todo-form">
+          <input type="text" class="search-todo-input" placeholder="Find your todo" />
+        </form>
+        <footer class="todo-list-footer">
+          <div class="todo-list-footer-counter"></div>
+          <button class="todo-list-footer-button-all">All</button>
+          <button class="todo-list-footer-button-active">Active</button>
+          <button class="todo-list-footer-button-completed">Completed</button>
+        </footer>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
